@@ -1,0 +1,18 @@
+server open two port
+port 0: accept connection from client
+port 1: a simple html server, do operations
+
+client config
+connection token: <sn:ip:port>
+
+operation on tunnel:
+set tunnel id
+open connection
+transport data
+close connection
+
+operation on server:
+start listen
+stop listen
+query port
+list port
